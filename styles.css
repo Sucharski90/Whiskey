@@ -43,7 +43,7 @@ body {
 .banner-title {
     font-size: 4rem;
     text-transform: capitalize;
-    color: var(--red);
+    color: var(--orangeish);
 }
 @media screen and (min-width:768px) {
     .banner-title {
@@ -114,5 +114,22 @@ body {
     height: 100%;
     width: 10rem;
     background: rgba(136, 89, 51, 0.8);
-
+    z-index: 3;
+}
+.nav-links {
+    list-style-type: none;
+}
+.nav-single-link {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: var(--brightred);
+    padding: 0.5rem 1rem;
+    transition: all .2s ease-in-out;
+}
+.nav-single-link:hover {
+    background: var(--brightred);
+    color: var(--orangeish);
+    padding-left: 1.5rem;
 }
