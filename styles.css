@@ -149,5 +149,8 @@ body {
         position: relative;
         width: 5rem;
         background: var(--orangeish);
+        text-transform: uppercase;
+        display: flex;
+        
     }
 }
